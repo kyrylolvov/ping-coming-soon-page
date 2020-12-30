@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script
+      src="https://kit.fontawesome.com/d176fdd0d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <img src="/images/logo.svg" alt="Ping Logo" class="brangLogo" />
+      <h1 class="headerText">
+        We are launching <span class="headerTextBold">soon!</span>
+      </h1>
+      <h2 class="secondaryText">Subscribe and get notified.</h2>
+      <form class="formSection">
+        <div class="inputWrapper">
+          <input
+            required
+            id="email"
+            type="email"
+            class="emailInput"
+            placeholder="Your email adress..."
+          />
+          <div class="errorMessage hidden">Please fill out this field ⛔</div>
+        </div>
+        <button type="submit" class="submitButton">Notify Me</button>
+      </form>
+      <img
+        src="/images/illustration-dashboard.png"
+        alt="illustration"
+        class="illustration"
+      />
+      <div class="socialMedia">
+        <a href="#" class="sociamMediaLink">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="sociamMediaLink">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="sociamMediaLink">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="copyRight">© Copyright Ping. All rights reserved.</div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
